@@ -6,8 +6,6 @@ function App() {
   return (
     <Routes>
       <Route index element={<Home />} />
-
-      
     </Routes>
   );
 }
