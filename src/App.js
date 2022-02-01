@@ -1,11 +1,11 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import Create from "./pages/Create";
 
 function App() {
   return (
     <Routes>
-      <Route index element={<Home />} />
+      <Route index element={<Create />} />
     </Routes>
   );
 }
