@@ -1,7 +1,9 @@
 import "../App.css";
-
+import Card from "../components/Card";
 function Home() {
-  return <div className="App">coders</div>;
-}
+  return <Card/>;
+
+};
+
 
 export default Home;
