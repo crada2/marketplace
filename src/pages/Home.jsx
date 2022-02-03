@@ -4,13 +4,22 @@ import "../App.css";
 import Header from "../components/Header";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
+import "../assets/style/home.css";
 
 const Home = () => {
   return (
     <div>
       <Header/>
       <Hero /> 
-      <Card />
+      <div className="grid-container">
+        <div class="grid-item"><Card /></div>
+        <div class="grid-item"><Card /></div>
+        <div class="grid-item"><Card /></div>  
+        <div class="grid-item"><Card /></div>
+        <div class="grid-item"><Card /></div>  
+        <div class="grid-item"><Card /></div>
+        
+      </div>
       <Footer />
         
       

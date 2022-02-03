@@ -1,0 +1,31 @@
+.grid-container{
+    padding: 20px;
+    clip-path: polygon(52% 2%, 100% 0, 98% 100%, 49% 95%, 0 100%, 0 0);
+    background-color: rgba(197, 243, 241, 0.397);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+.grid-item {
+ display: flex;
+ justify-content: center;
+    background-color: rgba(197, 243, 241, 0.198);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+
+
+  @media(max-width: 1317px){
+    .grid-container{
+      
+       grid-template-columns:auto auto;
+    }
+}
+@media(max-width: 600px){
+     .grid-container{
+       
+        grid-template-columns:auto;
+     }
+}
