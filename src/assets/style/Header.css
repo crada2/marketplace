@@ -1,0 +1,140 @@
+header {
+    height: 10%;
+    display: flex;
+    position: absolute;
+    /*left: 20px;*/
+    margin: 0 auto;
+    top: 2px;
+    /*background-color: lightpink;*/
+    width: 100%;
+}
+.logoContainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 4vw;
+    /* width: 25vw; */
+    /* background-color: lightsalmon; */
+    top: 13%;
+}
+.logoHeader{
+    width: 100%;
+    height:70%;
+}
+.botonContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 18px;
+    left: 86vw;
+    width: 12vw;
+    /*height: 45px;*/
+    
+}
+.botonHeader{
+    background: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.9em;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border: none;
+    outline: none;
+    background-image: url(/src/assets/img/buttonHeader.png);
+}
+.botonHeader:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+.botonHeader:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowingHeader 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.botonheader:active {
+    color: #000
+}
+
+.botonHeader:active:after {
+    background: transparent;
+}
+
+.botonHeader:hover:before {
+    opacity: 1;
+}
+
+.botonHeader:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #080808;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowingHeader {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+/*@media (min-width:768px)*/
+@media (max-width:550px){
+
+    .botonHeader{
+        color: rgb(245, 237, 237);
+        font-size: 0em; 
+        /*background-color: white;*/
+        background: rgb(252, 248, 248);
+        background-image: url(/src/assets/img/buttonHeader.png);
+        background-repeat:no-repeat;
+        background-position:center;
+        position: relativa;
+        
+    
+  }
+    .botonContainer{
+        display: flex;
+        top: 18px;
+        left: 80vw;
+        width: 13vw;
+        height: 45px;
+        background-color: lightcoral;
+    }
+
+.botonHeader:after {
+   
+    background-color: rgba(255, 0, 0, 0.014)
+    
+}
+}
