@@ -1,0 +1,53 @@
+{
+    "cards": [{
+            "id": 1,
+            "title": "Robot green",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim hic eum, laboriosam asperiores quidem dolor expedita. Harum vero at et voluptates voluptatibus? Sed, maiores. Reprehenderit cum enim maiores unde nisi?",
+            "img": "./assets/img/collections/robor-green.pmg",
+            "price": "2"
+        },
+        {
+            "id": 2,
+            "title": "Robot red",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim hic eum, laboriosam asperiores quidem dolor expedita. Harum vero at et voluptates voluptatibus? Sed, maiores. Reprehenderit cum enim maiores unde nisi?",
+            "img": "./assets/img/collections/robor-red.pmg",
+            "price": "5"
+        },
+        {
+            "id": 3,
+            "title": "Robot orange",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim hic eum, laboriosam asperiores quidem dolor expedita. Harum vero at et voluptates voluptatibus? Sed, maiores. Reprehenderit cum enim maiores unde nisi?",
+            "img": "./assets/img/collections/robor-orange.pmg",
+            "price": "1"
+        },
+        {
+            "id": 4,
+            "title": "Robot-yellow",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim hic eum, laboriosam asperiores quidem dolor expedita. Harum vero at et voluptates voluptatibus? Sed, maiores. Reprehenderit cum enim maiores unde nisi?",
+            "img": "./assets/img/collections/robor-yellow.pmg",
+            "price": "3"
+        },
+        {
+            "id": 5,
+            "title": "Robot-grey",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim hic eum, laboriosam asperiores quidem dolor expedita. Harum vero at et voluptates voluptatibus? Sed, maiores. Reprehenderit cum enim maiores unde nisi?",
+            "img": "./assets/img/collections/grey-light.pmg",
+            "price": "1,4"
+        },
+        {
+            "id": 6,
+            "title": "Robot-pink",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim hic eum, laboriosam asperiores quidem dolor expedita. Harum vero at et voluptates voluptatibus? Sed, maiores. Reprehenderit cum enim maiores unde nisi?",
+            "img": "./assets/img/collections/robor-pink.pmg",
+            "price": "2,1"
+        },
+        {
+            "id": 7,
+            "title": "",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim hic eum, laboriosam asperiores quidem dolor expedita. Harum vero at et voluptates voluptatibus? Sed, maiores. Reprehenderit cum enim maiores unde nisi?",
+            "img": "./assets/img/collections/robor.green.pmg",
+            "price": "3"
+        }
+        
+    ]
+}
