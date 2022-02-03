@@ -48,7 +48,7 @@ const Create = () => {
       </div>
 
       <div className="container-form">
-        <div className="form-nft">
+        <div className="form">
           <label for="formGroupNFT">Artist</label>
           <input
             type="text"
@@ -58,7 +58,7 @@ const Create = () => {
             placeholder="Artist"
           />
         </div>
-        <div className="form-nft">
+        <div className="form">
           <label for="formGroupNFT">NFT Name</label>
           <input
             type="text"
@@ -68,7 +68,7 @@ const Create = () => {
             placeholder="Name"
           />
         </div>
-        <div className="form-nft">
+        <div className="form">
           <label for="formGroupNFT">Description</label>
           <input
             type="text"
@@ -78,6 +78,7 @@ const Create = () => {
             placeholder="Description"
           />
         </div>
+        <div className="form">
         <label for="formGroupNFT">Price</label>
         <input
           type="number"
@@ -86,7 +87,8 @@ const Create = () => {
           className="form-nft"
           placeholder="Price"
         />
-          <div className="form-nft">
+        </div>
+          <div className="form">
             <label for="formGroupNFT">Image</label>
             <input
               type="img"
