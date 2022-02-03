@@ -7,7 +7,10 @@ const Home = () => {
   return (
     <div>
       <Header/>
-      <Card />;
+        <div>
+        <Card />;
+        </div>
+      
     </div>
   );
 };
