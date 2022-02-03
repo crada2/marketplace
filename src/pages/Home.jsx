@@ -1,7 +1,7 @@
 import "../App.css";
+import Footer from "../components/Footer";
 
 function Home() {
-  return <div className="App">coders</div>;
+  return <Footer />;
 }
-
 export default Home;

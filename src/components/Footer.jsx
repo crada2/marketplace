@@ -1,23 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import "../assets/style/footer.css"
 
 const Footer = () => {
   return (
-    <footer className="navbar navbar-light">
-      <div className="container-fluid d-flex justify-content-between">
-        <p className="text-light m-2 p-2">
-          © 2021 Crada, Inc. All rights reserved
+    <footer className="footerContainer">
+      <div className="footerText">
+        <p className="">
+          © 2022 Crada, Inc. All rights reserved
         </p>
-        <div className="d-flex flex-row-reverse">
-          <a className="p-3 btn-outline-danger rounded-circle">
-            <BsFacebook />
+        <div className="footerIcons">
+          <a className="icons">
+            <img src={require("../assets/img/instagram.png")} alt="" width="40px"/>
           </a>
-          <a className="p-3 btn-outline-danger rounded-circle">
-            <BsInstagram />
+          <a className="icons">
+          <img src={require("../assets/img/twitter.png")} alt="" width="40px" />
           </a>
-          <a className="p-3 btn-outline-danger rounded-circle">
-            <BsTwitter />
+          <a className="icons">
+          <img src={require("../assets/img/facebook.png")} alt="" width="40px"/>
           </a>
         </div>
       </div>

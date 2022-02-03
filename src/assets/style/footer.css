@@ -1,0 +1,27 @@
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#9E91ED;
+
+}
+.footerIcons {
+    display:inline-block;
+    
+
+   /*background-color: yellow;*/
+  
+}
+.icons {
+   
+    
+    background-color: darkgreen;
+    
+}
+.footerText {
+    margin-left: 20px;
+    color:rgb(255, 255, 255);
+
+   /* background-color: turquoise;*/
+
+}
