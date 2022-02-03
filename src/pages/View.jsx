@@ -22,7 +22,7 @@ const View = () => {
             friend. I... never turned down a stranger for that matter.
           </p>
           <p>
-            <b>Buy for:</b> 100€
+            <b>Buy for:</b> 150€
           </p>
         </div>
         <div className="card-img">
