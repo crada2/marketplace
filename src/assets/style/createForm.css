@@ -1,0 +1,45 @@
+.container-Formulario {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  justify-content: space-evenly;
+}
+
+.container-image {
+  display: flex;
+  justify-content: left;
+  margin-left: 4%;
+}
+
+.container-form {
+  margin: 3rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+  border-radius: 30px;
+  justify-content: right;
+}
+
+.form-nft {
+  display: flex;
+  margin: 1px;
+  padding: 1px;
+}
+
+.button {
+  display: flex;
+  margin-left: 26%;
+  border: none;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bolder;
+  align-items: center;
+  background-color: #d45cac;
+  color: white;
+  padding: 12px 50px;
+  width: 4rem;
+  height: 2rem;
+  backdrop-filter: blur(192px);
+  border-radius: 5px;
+}
