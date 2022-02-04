@@ -1,6 +1,6 @@
 .grid-container{
     padding: 20px;
-    clip-path: polygon(52% 2%, 100% 0, 98% 100%, 49% 95%, 0 100%, 0 0);
+    clip-path: polygon(50% 2%, 100% 0, 100% 70%, 100% 100%, 50% 98%, 0 100%, 0 0);
     background-color: rgba(197, 243, 241, 0.397);
     display: grid;
     grid-template-columns: auto auto auto auto;
