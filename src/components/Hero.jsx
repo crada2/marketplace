@@ -17,7 +17,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="img-div">
-          <img src={require("../assets/img/img-hero.png")} alt="" />
+          <img className="monster" src={require("../assets/img/img-hero.png")} alt="" />
         </div>
       </div>
     </main>
