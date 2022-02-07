@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../assets/style/createForm.css";
 
 const Create = () => {
@@ -79,25 +79,25 @@ const Create = () => {
           />
         </div>
         <div className="form">
-        <label for="formGroupNFT">Price</label>
-        <input
-          type="number"
-          value={price}
-          onChange={handleChangePrice}
-          className="form-nft"
-          placeholder="Price"
-        />
+          <label for="formGroupNFT">Price</label>
+          <input
+            type="number"
+            value={price}
+            onChange={handleChangePrice}
+            className="form-nft"
+            placeholder="Price"
+          />
         </div>
-          <div className="form">
-            <label for="formGroupNFT">Image</label>
-            <input
-              type="img"
-              value={image}
-              onChange={handleChangeImage}
-              className="form-nft"
-              placeholder="Image"
-            />
-          </div>
+        <div className="form">
+          <label for="formGroupNFT">Image</label>
+          <input
+            type="img"
+            value={image}
+            onChange={handleChangeImage}
+            className="form-nft"
+            placeholder="Image"
+          />
+        </div>
         <button type="button" className="button" onClick={handleClick}>
           Submit
         </button>
