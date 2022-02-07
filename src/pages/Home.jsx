@@ -1,5 +1,5 @@
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Hero from "../components/Hero";
 import "../App.css";
 import Header from "../components/Header";
@@ -9,20 +9,18 @@ import "../assets/style/home.css";
 import axios from 'axios';
 
 const Home = () => {
-  const [loading, setLoading] = React.useState(true);
-  const [nfts, setNfts] = React.useState([]);
+  const [loading, setLoading] = useState(true);
+  const [nfts, setNfts] = useState([]);
 
   useEffect(() => {
     setLoading(false);
-    axios.get(`https://localhost:8080/tokens`)
-     .then((res => {
-      setNfts(res.data)
-      .then((result) => {
-        setNfts(result);
-        setLoading(false);
-      });
-     }),
-  []);
+    axios.get('http://localhost:8080/tokens')
+    
+    .then((res) => {
+      setNfts(res.data) //setNfts(res.data)
+    })
+    
+}, [setLoading]);
 
   const renderNfts = ()=>{
     if (loading) {
@@ -50,10 +48,9 @@ const Home = () => {
         {renderNfts()}
       </div>
       <Footer />
-        
-      
     </div>
   );
-};
+//);
 
+}
 export default Home;
