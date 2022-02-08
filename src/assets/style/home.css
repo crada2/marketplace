@@ -1,9 +1,15 @@
 .grid-container {
-  padding: 20px;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  justify-content: space-around;
+        /* padding: 4% 13% 4% 13%; */
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto auto; */
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5%;
+    /* grid-auto-rows: minmax(100px, auto); */
+    margin: 2% 8% 4% 8%;
 }
+
 
 .grid-item {
   display: flex;
