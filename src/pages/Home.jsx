@@ -2,9 +2,7 @@ import "../App.css";
 import "../assets/style/home.css";
 import React, { useEffect, useState } from "react";
 import Hero from "../components/Hero";
-import Header from "../components/Header";
 import Card from "../components/Card";
-import Footer from "../components/Footer";
 import axios from "axios";
 
 const Home = () => {
@@ -37,10 +35,8 @@ const Home = () => {
 
   return (
     <div>
-      <Header />
       <Hero />
       <div className="grid-container">{renderNfts()}</div>
-      <Footer />
     </div>
   );
 };

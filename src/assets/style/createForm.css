@@ -1,21 +1,20 @@
 .container-Formulario {
   display: flex;
   flex-direction: row;
-  margin-top: 5rem;
+  margin-top: 6rem;
+  margin-bottom: 5rem;
   justify-content: space-evenly;
 }
 
 .container-img {
-    display: block;
-    margin: 0 auto;
-    flex: 1;
-    
+  display: block;
+  margin: 0 auto;
+  flex: 1;
 }
 
-
 .container-img img {
-    margin-left: 15%;
-  }
+  margin-left: 15%;
+}
 
 .container-form {
   padding: 3rem;
@@ -25,12 +24,12 @@
 }
 
 .form-nft {
-    display: flex;
-    margin-right: 80px;
-    flex: 1;
-    width: 20rem;
-    height: 2rem;
-    margin-bottom: 2%;
+  display: flex;
+  margin-right: 80px;
+  flex: 1;
+  width: 20rem;
+  height: 2rem;
+  margin-bottom: 2%;
 }
 
 .button {
@@ -48,5 +47,4 @@
   height: 2rem;
   backdrop-filter: blur(192px);
   border-radius: 5px;
-  
 }

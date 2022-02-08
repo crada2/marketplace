@@ -1,17 +1,21 @@
 .containerProduct {
-
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 18rem;
-    background: rgba(215, 233, 232, 0.281);
-    box-shadow: 0px 4px 4px rgb(231 226 226 / 25%), -2px -2px 2px rgb(255 255 255 / 25%), inset 2px 6px 2px rgb(255 240 240 / 31%);
-    border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 18rem;
+  height: 30rem;
+  background: rgba(215, 233, 232, 0.281);
+  box-shadow: 0px 4px 4px rgb(231 226 226 / 25%),
+    -2px -2px 2px rgb(255 255 255 / 25%),
+    inset 2px 6px 2px rgb(255 240 240 / 31%);
+  border-radius: 30px;
 }
 
 .sectionUp {
-  margin-bottom: 2rem;
-  max-height: 50%;
+  margin-bottom: 1rem;
+  max-height: 70%;
   display: flex;
   justify-content: center;
 }
@@ -23,52 +27,48 @@
 
 .imgProduct {
   position: relative;
-  width: 10rem;
-  margin-left: 20px;
+  width: 15rem;
+  height: 14rem;
 }
 .search {
-  position: relative;
-  margin-left: -17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
 }
+
 .imgSearch {
   width: 1rem;
 }
+
 .sectionDown {
   margin-bottom: 10px;
   padding: 10px;
   width: 13rem;
   border-radius: 3px;
-  margin-left: 6%;
   background: #def8f725;
   box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
     0px 18px 88px -4px rgba(24, 39, 75, 0.14);
   border-radius: 10px;
 }
 .infoProduct {
-  justify-content: center;
   font-style: italic;
-  font-size: 10px;
+  font-size: 15px;
 }
 .title {
   font-size: 20px;
 }
-.info {
-  font-size: 10px;
-}
+
 .btnBuy {
   display: flex;
-  margin-left: 26%;
   border: none;
   justify-content: center;
   color: white;
   font-size: 19px;
   font-weight: bolder;
-  justify-content: center;
   align-items: center;
-  margin-left: 22%;
-  padding: 12px 50px;
-  width: 2rem;
-  height: 1rem;
+  width: 9rem;
+  height: 2rem;
   background: linear-gradient(
     92.23deg,
     #ff56f6 21.43%,
@@ -79,4 +79,9 @@
   box-shadow: 0px 4px 97px rgba(255, 86, 246, 0.51);
   backdrop-filter: blur(192px);
   border-radius: 5px;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
 }

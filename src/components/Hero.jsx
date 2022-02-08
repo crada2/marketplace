@@ -5,15 +5,13 @@ const Hero = () => {
   return (
     <main>
       <div className="container">
-        
         <div className="text">
-          <h1 className="h1Gradient">Financial Mika-Shop NFT Rules</h1>
+          <h1 className="h1Gradient">Collect digital art</h1>
           <p className="parrafo">
-            We draw your attention to a few simple rules for working with an
-            online bank and a mobile application
+            <b>Buy and sell NFTs from the world’s top artists</b>
           </p>
           <div className="btn-div">
-            <button className="buttonGet">Get Started</button>
+            <button className="buttonGet">Create</button>
           </div>
         </div>
         <div className="img-div">
