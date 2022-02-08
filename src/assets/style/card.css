@@ -6,7 +6,7 @@
   align-items: center;
   width: 18rem;
   height: 30rem;
-  background: rgba(215, 233, 232, 0.281);
+  background: rgba(171, 219, 216, 0.281);
   box-shadow: 0px 4px 4px rgb(231 226 226 / 25%),
     -2px -2px 2px rgb(255 255 255 / 25%),
     inset 2px 6px 2px rgb(255 240 240 / 31%);
@@ -31,6 +31,7 @@
   height: 14rem;
   border-radius: 20px;
 }
+
 .search {
   display: flex;
   justify-content: center;
@@ -39,7 +40,7 @@
 }
 
 .imgSearch {
-  width: 1rem;
+  width: 1.2rem;
 }
 
 .sectionDown {

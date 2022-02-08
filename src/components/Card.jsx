@@ -11,7 +11,7 @@ const Card = ({ description, image, price, title, username }) => {
           src={require("../assets/img/bg-product.png")}
           alt=""
         />
-        <img className="imgProduct" src={image} alt="" />
+        <img className="imgProduct" src={image} alt="" data-testid="image" />
       </div>
       <div className="search">
         <Link href="#" to="view">

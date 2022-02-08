@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="text">
           <h1 className="h1Gradient">Collect digital art</h1>
           <p className="parrafo">
-            <b>Buy and sell NFTs from the world’s top artists</b>
+            <b>Buy and sell NFTs from the world's top artists</b>
           </p>
           <div className="btn-div">
             <button className="buttonGet">Create</button>
