@@ -1,58 +1,124 @@
-.main {
-  width: 100%;
+main{
+  width:100%;
   height: 80%;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, "Roboto", Oxygen,
-    Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
-  background: linear-gradient(to right, #8f0000, #07293a 70%);
-}
-
-.container {
-  margin-top: 6rem;
-  margin-bottom: 1rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
-.text {
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 10% 4% 4%;
+}
+.text{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
-
-.h1Gradient {
-  font-size: 72px;
-  margin: 0;
-  background-image: linear-gradient(
-    to right,
-    rgb(71, 119, 230) 0%,
-    rgb(141, 84, 233) 100%
-  );
+.h1Gradient{
+  font-size: 4.1em;
+  margin:0;  
+  background-image:
+  linear-gradient(to right, rgb(71, 119, 230) 0%, rgb(141, 84, 233) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
 }
 
-.parrafo {
+.parrafo{
   font-size: 18px;
   margin-bottom: 40px;
   color: rgba(105, 108, 115, 1);
 }
-
-.buttonGet {
+.img-div img {
+  position: relative;
+  /* width: 59vw; */
+  margin: 8% 8% 4% 20%;
+  align-content: center;
+}
+.buttonGet{
   width: 194px;
   height: 47px;
   border-radius: 10px;
-  background: linear-gradient(
-    to right,
-    rgb(0, 150, 80) 0%,
-    rgb(250, 255, 209) 100%
-  );
+  background: 
+  linear-gradient(to right, #009650 0%, #faffd1 100%);
   font-size: 1em;
-  border: none;
-  color: black;
+  border:none;
+  color:black;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  
+  
+/*     
+  .btn-grad {
+      background-image: linear-gradient(to right, #6441A5 0%, #2a0845  51%, #6441A5  100%)}
+   */
+  
+}
 
-  /*     
-    .btn-grad {
-        background-image: linear-gradient(to right, #6441A5 0%, #2a0845  51%, #6441A5  100%)}
-     */
+
+
+
+
+@media (max-width:768px){
+  
+  main{
+      margin-top: 5%;
+  }
+  .container {
+  display: grid;
+  justify-content: center;
+  margin: 15%;
+}
+  .img-div img{
+      position: relative;
+      width: 59vw;
+      margin: 8% 8% 4% 8%;
+      align-content: center;
+      /*background-color: lightpink*/
+}
+  .btn-div{
+      /*background-color: coral;*/
+      display: flex;
+      justify-content: center;
+  }
+  /*.buttonGet{
+      position: relative;
+      height:20px; 
+      margin: -20px -50px; 
+      width:100px; 
+      top:50%; 
+      left:50%
+  }*/
+  .text .h1Gradient {
+      font-size: 4em;
+      margin: 0;
+      text-align: justify;
+      /* letter-spacing: 2px;*/
+  }
+}
+@media (max-width: 550px){
+  main {
+      margin-top: 15%;
+  }
+}
+
+@media (max-width:425px){
+  
+  main{
+      margin-top: 14%;
+  }
+  
+  .text .h1Gradient{
+      font-size: 3em;
+      margin: 0;
+      text-align: center;
+      letter-spacing: 2px;
+  }
+  .container {
+      margin: 17%;
+  }
+
 }
