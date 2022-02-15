@@ -21,14 +21,13 @@ const Home = () => {
       return <p>Loading...</p>;
     }
 
-    return nfts.map(({ id, description, image, price, title, username }) => (
+    return nfts.map(({ id, description, image, price, title }) => (
       <Card
         key={id}
         description={description}
         image={image}
         price={price}
         title={title}
-        username={username}
       />
     ));
   };
