@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../assets/style/card.css";
 
-const Card = ({ description, image, price, title }) => {
+const Card = ({ description, image, price, title, seller }) => {
   return (
     <div className="containerProduct">
       <div className="sectionUp">
@@ -25,7 +25,7 @@ const Card = ({ description, image, price, title }) => {
       <div className="sectionDown">
         <h2 className="title">{title}</h2>
         <p>
-          <b>User:</b>
+          <b>User: {seller.name}</b>
         </p>
         <p className="infoProduct">{description}</p>
         <div className="boton">

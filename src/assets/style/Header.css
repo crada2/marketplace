@@ -2,34 +2,33 @@ header {
   height: 10%;
   display: flex;
   position: absolute;
-  /*left: 20px;*/
   margin: 0 auto;
   top: 2px;
-  /*background-color: lightpink;*/
   width: 100%;
 }
+
 .logoContainer {
   position: relative;
   display: flex;
   flex-direction: row;
   left: 4vw;
-  /* width: 25vw; */
-  /* background-color: lightsalmon; */
   top: 13%;
 }
+
 .logoHeader {
   width: 100%;
   height: 100%;
 }
+
 .botonContainer {
   position: absolute;
   display: flex;
   flex-direction: row;
   top: 25px;
-  left: 86vw;
+  left: 85vw;
   width: 12vw;
-  /*height: 45px;*/
 }
+
 .botonHeader {
   background: black;
   border-radius: 10px;
@@ -44,6 +43,7 @@ header {
   outline: none;
   background-image: url(/src/assets/img/buttonHeader.png);
 }
+
 .botonHeader:before {
   content: "";
   background: linear-gradient(
@@ -71,6 +71,7 @@ header {
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
+
 .botonHeader:before {
   content: "";
   background: linear-gradient(
@@ -140,7 +141,6 @@ header {
   .botonHeader {
     color: rgb(245, 237, 237);
     font-size: 0em;
-    /*background-color: white;*/
     background: rgb(252, 248, 248);
     background-image: url(/src/assets/img/buttonHeader.png);
     background-repeat: no-repeat;

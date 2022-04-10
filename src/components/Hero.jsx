@@ -11,7 +11,7 @@ const Hero = () => {
             <b>Buy and sell NFTs from the world's top artists</b>
           </p>
           <div className="btn-div">
-            <button className="buttonGet">Create</button>
+            <button className="buttonGet">Add NFT</button>
           </div>
         </div>
         <div className="img-div">

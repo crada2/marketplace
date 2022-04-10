@@ -1,7 +1,21 @@
 .footerContainer {
   width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  margin-bottom: 1rem;
+  color: pink;
+}
+
+.footerText {
+  color: rgba(105, 108, 115, 1);
+  font-weight: bold;
+}
+
+.icons2 {
+  margin-left: 1.2rem;
+}
+
+.icons3 {
+  margin-left: 1.2rem;
 }
